@@ -1,8 +1,8 @@
 
 spring:
   application:
-     name: car-service 
+     name: bike-service 
   cloud:
    config:
     enabled: true
-    uri: http://localhost:8081
+    uri: http://localhost:8090
