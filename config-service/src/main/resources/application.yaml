@@ -1,10 +1,10 @@
 server:
-  port: 8081
+  port: 8090
 spring:
   cloud:
     config:
       server:
-        git:
+       git:
            default-label: main 
            uri: https://github.com/williammq/Microservices
            search-paths: config-data 
